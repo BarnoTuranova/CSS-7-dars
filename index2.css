@@ -1,0 +1,170 @@
+li{
+display: inline-block;
+margin: 20px;
+text-align: center;
+width: 38px;
+height: 38px;
+list-style: none;
+position: relative;
+}
+.ba{
+display: inline-block;
+margin: 20px;
+text-align: center;
+width: 38px;
+height: 38px;
+list-style: none;
+position: relative;
+}
+.da{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    list-style: none;
+    position: relative;
+    }
+
+.wrap{
+position: relative;
+}
+.item{
+    border: 1px solid limegreen;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    top: 90px;
+    left: 80px;
+    border-radius: 15px;
+    background-color: limegreen;
+}
+.itemmi{
+    border: 1px solid white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: white;
+}
+.item:hover{
+    background-color: grey;
+    border: 1px solid grey;
+}
+.itemmi:hover{
+    position: absolute;
+    left: 25px;
+}
+.item1{
+    border: 1px solid grey;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    top: 90px;
+    left: 80px;
+    border-radius: 15px;
+    background-color: grey;
+}
+.itemmu{
+    border: 1px solid white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: -1px;
+    left: 24px;
+    border-radius: 50%;
+    background-color: white;
+}
+.item1:hover{
+    background-color: limegreen;
+    border: 1px solid limegreen;
+}
+.itemmu:hover{
+    position: absolute;
+    left: 0;
+}
+.item2{
+    width: 45px;
+    height: 25px;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    transform: skew(-6deg);
+    position: absolute;
+    top: 90px;
+    left: 375px;
+    background: rgba(225, 225, 225, 0.5);
+
+}
+.item2:hover{
+    background-color: #77de77;
+    border: 1px solid #77de77;
+}
+.flat{
+    border: 5px solid gainsboro;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    top: 90px;
+    left: 80px;
+    border-radius: 15px;
+}
+.flat1{
+    border: 5px solid gainsboro;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    border-radius: 80%;
+    background-color: gainsboro;
+}
+.flat1:hover{
+    left: 15px;
+}
+.item4{
+    width: 45px;
+    height: 25px;
+    border: 1px solid rgb(101, 220, 101);
+    position: absolute;
+    top: 90px;
+    left: 630px;
+    background: #77de77;
+    z-index: -1;
+
+}
+.item4:hover{
+background-color: gray;
+border: 1px solid gray;
+}
+.ha{
+    color: transparent;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 10px;
+}
+.item2:hover .itemmy{
+color: #77de77;
+}
+.ha:hover{
+    color: black;
+}
+
+.barno1{
+    color:transparent;
+    position: absolute;
+    top: 5px;
+    text-align: center;
+    left: 10px;
+    z-index: 1;
+}
+.item4:hover .itemmp{
+color:  gray;
+}
+.barno1:hover{
+    color: white;
+}
+
+
+
